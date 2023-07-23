@@ -4,7 +4,7 @@ script that starts a Flask web application:
     with paths: /, /hbnb
 """
 
-from flask import FLASK
+from flask import Flask
 app = Flask(__name__)
 
 
