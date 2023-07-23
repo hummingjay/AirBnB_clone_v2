@@ -12,8 +12,9 @@ app = Flask(__name__)
 # / first page
 
 
-@app.route('/', strict_slashes=false)
+@app.route('/', strict_slashes=False)
 def index():
+    """return Hello HBNB!"""
     return ("Hello HBNB!")
 
 
