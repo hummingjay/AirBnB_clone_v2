@@ -5,13 +5,13 @@ script that starts a Flask web application:
 """
 
 from flask import FLASK
-app = Flask(__name)
+app = Flask(__name__)
 
 
 @app.route('/', strict_slashes=False)
 def index():
-    """Return Hello world!"""
-    return ('Hello HBNB')
+    """Return Hello HBNB!!"""
+    return ('Hello HBNB!')
 
 
 @app.route('/hbnb', strict_slashes=False)
