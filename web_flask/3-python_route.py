@@ -30,7 +30,7 @@ def cpath(text):
 
 
 @app.route('/python', strict_slashes=False)
-@app.route('/python/', strict_slashes=False)
+@app.route('/python/<text>', strict_slashes=False)
 def pypath(text='is cool'):
     """returns python followed by text in url"""
     formatted_text = text.replace('_', ' ')
