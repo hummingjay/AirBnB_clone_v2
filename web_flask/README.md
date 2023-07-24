@@ -18,6 +18,7 @@
 $ pip3 install Flask
 ```
 ## Tasks
+
 0. Hello Flask!
    Write a script that starts a Flask web application:
   - Your web application must be listening on `0.0.0.0`, port `5000`
@@ -37,3 +38,15 @@ File: [0-hello\_route.py](0-hello_route.py), [\_\_init\_\_.py](__init__.py)
    - You must use the option `strict_slashes=False` in your route definition </br>
 
 File: [1-hbnb\_route.py](1-hbnb_route.py)
+
+2. C is fun!
+Write a script that starts a Flask web application:
+
+  - Your web application must be listening on 0.0.0.0, port 5000
+  - Routes:
+    - `/`: display “Hello HBNB!”
+    - `/hbnb`: display “HBNB”
+    - `/c/<text>`: display “C ” followed by the value of the `text` variable (replace underscore `_` symbols with a space )
+  - You must use the option `strict_slashes=False` in your route definition </br>
+
+File: [2-c\_route.py](2-c_route.py)
