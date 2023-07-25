@@ -7,7 +7,7 @@
 The default value of text is “is cool”
 /number/<n>: display “n is a number” only if n is int
 """
-from flask import Flask
+from flask import Flask, render_template
 app = Flask(__name__)
 
 
